@@ -12,15 +12,15 @@ export class UnidadeService {
     return `This action returns all unidade`;
   }
 
-  findOne(id: number) {
+  findOne(id_unidade: number) {
     return `This action returns a #${id} unidade`;
   }
 
-  update(id: number, updateUnidadeDto: UpdateUnidadeDto) {
+  update(id_unidade: number, updateUnidadeDto: UpdateUnidadeDto) {
     return `This action updates a #${id} unidade`;
   }
 
-  remove(id: number) {
+  remove(id_unidade: number) {
     return `This action removes a #${id} unidade`;
   }
 }

@@ -12,15 +12,15 @@ export class PedidoService {
     return `This action returns all pedido`;
   }
 
-  findOne(id: number) {
+  findOne(id_pedido: number) {
     return `This action returns a #${id} pedido`;
   }
 
-  update(id: number, updatePedidoDto: UpdatePedidoDto) {
+  update(id_pedido: number, updatePedidoDto: UpdatePedidoDto) {
     return `This action updates a #${id} pedido`;
   }
 
-  remove(id: number) {
+  remove(id_pedido: number) {
     return `This action removes a #${id} pedido`;
   }
 }

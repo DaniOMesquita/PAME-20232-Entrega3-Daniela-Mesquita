@@ -12,15 +12,15 @@ export class ClienteService {
     return `This action returns all cliente`;
   }
 
-  findOne(id: number) {
+  findOne(id_cliente: number) {
     return `This action returns a #${id} cliente`;
   }
 
-  update(id: number, updateClienteDto: UpdateClienteDto) {
+  update(id_cliente: number, updateClienteDto: UpdateClienteDto) {
     return `This action updates a #${id} cliente`;
   }
 
-  remove(id: number) {
+  remove(id_cliente: number) {
     return `This action removes a #${id} cliente`;
   }
 }

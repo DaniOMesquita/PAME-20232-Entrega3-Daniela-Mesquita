@@ -12,15 +12,15 @@ export class CupomService {
     return `This action returns all cupom`;
   }
 
-  findOne(id: number) {
+  findOne(id_cupom: number) {
     return `This action returns a #${id} cupom`;
   }
 
-  update(id: number, updateCupomDto: UpdateCupomDto) {
+  update(id_cupom: number, updateCupomDto: UpdateCupomDto) {
     return `This action updates a #${id} cupom`;
   }
 
-  remove(id: number) {
+  remove(id_cupom: number) {
     return `This action removes a #${id} cupom`;
   }
 }

@@ -12,15 +12,15 @@ export class EstoqueService {
     return `This action returns all estoque`;
   }
 
-  findOne(id: number) {
+  findOne(id_estoque: number) {
     return `This action returns a #${id} estoque`;
   }
 
-  update(id: number, updateEstoqueDto: UpdateEstoqueDto) {
+  update(id_estoque: number, updateEstoqueDto: UpdateEstoqueDto) {
     return `This action updates a #${id} estoque`;
   }
 
-  remove(id: number) {
+  remove(id_estoque: number) {
     return `This action removes a #${id} estoque`;
   }
 }

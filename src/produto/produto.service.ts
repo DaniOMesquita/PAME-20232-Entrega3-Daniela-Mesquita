@@ -12,15 +12,15 @@ export class ProdutoService {
     return `This action returns all produto`;
   }
 
-  findOne(id: number) {
+  findOne(id_produto: number) {
     return `This action returns a #${id} produto`;
   }
 
-  update(id: number, updateProdutoDto: UpdateProdutoDto) {
+  update(id_produto: number, updateProdutoDto: UpdateProdutoDto) {
     return `This action updates a #${id} produto`;
   }
 
-  remove(id: number) {
+  remove(id_produto: number) {
     return `This action removes a #${id} produto`;
   }
 }

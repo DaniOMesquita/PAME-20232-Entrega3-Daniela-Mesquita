@@ -12,15 +12,15 @@ export class CarrinhoService {
     return `This action returns all carrinho`;
   }
 
-  findOne(id: number) {
+  findOne(id_categoria number) {
     return `This action returns a #${id} carrinho`;
   }
 
-  update(id: number, updateCarrinhoDto: UpdateCarrinhoDto) {
+  update(id_categoria number, updateCarrinhoDto: UpdateCarrinhoDto) {
     return `This action updates a #${id} carrinho`;
   }
 
-  remove(id: number) {
+  remove(id_categoria number) {
     return `This action removes a #${id} carrinho`;
   }
 }

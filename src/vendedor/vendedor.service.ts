@@ -7,20 +7,15 @@ export class VendedorService {
   create(createVendedorDto: CreateVendedorDto) {
     return 'This action adds a new vendedor';
   }
-
-  findAll() {
-    return `This action returns all vendedor`;
-  }
-
-  findOne(id: number) {
+  findOne(id_vendedor: number) {
     return `This action returns a #${id} vendedor`;
   }
-
-  update(id: number, updateVendedorDto: UpdateVendedorDto) {
+ ''
+  update(id_vendedor: number, updateVendedorDto: UpdateVendedorDto) {
     return `This action updates a #${id} vendedor`;
   }
 
-  remove(id: number) {
+  remove(id_vendedor: number) {
     return `This action removes a #${id} vendedor`;
   }
 }

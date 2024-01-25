@@ -1,4 +1,6 @@
 import { PartialType } from '@nestjs/mapped-types';
 import { CreateUnidadeDto } from './create-unidade.dto';
 
-export class UpdateUnidadeDto extends PartialType(CreateUnidadeDto) {}
+export class UpdateUnidadeDto extends PartialType(CreateUnidadeDto) {
+    telefone:number;
+}
